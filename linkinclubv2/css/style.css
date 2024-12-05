@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    background: linear-gradient(90deg, #474747 0%, #ffffff 100%);
+}
+
+.cabecalho-logo-space{
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 11vh;
+}
+
+.cabecalho-logo{
+    height: 80%;
+}
+
+.cabecalho-titulo{
+    font-size: larger;
+}
+
+.cabecalho-nav{
+    background-color: black;
+    height: 4vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+    
+.cabecalho-nav-links{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.cabecalho-nav-links:hover{
+    transition: 0.4s;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.botao-tema-space{
+    position: absolute;
+    right: 0;
+}
+
+#botao-img{
+    width: 100px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+}
+
+.textinho{
+    padding-top: 20vh;
+    padding-left: 10%;
+    justify-content: center;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+    font-size: 4vh;
+}
+
+.imagem-textinho{
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 9%;
+}
+
+.textinho-2{
+    text-align: justify;
+    justify-content: center;
+    -webkit-text-stroke-width: 0.5px;
+    font-size: 3vh;
+    padding-right: 10%;
+}
+
+.about-us{
+    margin-top: 38vh;
+    display: flex;
+
+}
+
+.imagem-textinho-2{
+    width: 25%;
+    padding-left: 10%;
+    padding-right: 9%;
+}
+
+.footer{
+    margin-top: 500px;
+    width: 100%;
+    display: flex;
+    height: 14vh;
+    gap: 1%;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.footer-texto{
+    color:#ffffff;
+}
+
+.logos-links{
+    width: 2%;
+}
+.icones-logo{
+    width: 100%;
+}
+
+.discografia{
+    display: flex;
+}
+
+/* loja css */
+.produtos {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+}
+
+.produto {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+}
+
+.produto h2 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.produto p {
+    color: #777;
+}
+
+.produto button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* sobre a banda */
+
+.albuns-container {
+    overflow-x: hidden;  /* Esconde o conteúdo fora da área visível */
+    white-space: nowrap;
+    padding: 10px 0;
+    position: relative;
+}
+
+.albuns {
+    display: inline-block;
+    animation: scrollImages 100s linear infinite;  /* A animação acontece de forma contínua */
+}
+
+.albuns img {
+    margin-right: 10px;
+}
+
+/* Definindo a animação para mover as imagens */
+@keyframes scrollImages {
+    0% {
+        transform: translateX(0);  /* Começa na posição original */
+    }
+    100% {
+        transform: translateX(-100%);  /* Move as imagens completamente para a esquerda */
+    }
+}
+
+
